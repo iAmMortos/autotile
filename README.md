@@ -27,7 +27,7 @@ Now let the corners be numbered similarly.
      
 This time, rather than simply adding the numbers of present blocks together, we also determine if a corner has both edges surrounding it before adding it to our corner total. If a corner is not surrounded by both edge blocks, its presence has no effect on the appearance of block X.
 
-There are 47 unique configurations around your block X that will affect its appearance. The correct image can now be decided via a 2-deep switch statement:
+There are 47 unique configurations around your block X that will affect its appearance. The correct image can now be decided via a 2-deep, nested switch statement:
 
     // edges   = total from present edge blocks
     // corners = total from present corner blocks surrounded by edge blocks
